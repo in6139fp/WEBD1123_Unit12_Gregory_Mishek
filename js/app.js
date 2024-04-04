@@ -7,4 +7,11 @@ $(function(){
     console.log(section3circle);
     // jQuery methods go here...
 gsap.to(section1sqr, {x: 200, duration: 10})
-  });
+;
+gsap.from(section2rect, {x:200, duration:10});
+
+gsap.fromTo(section3circle, {x:-200, duration:10},{x:200, duration:10})});
+
+
+
+ 
